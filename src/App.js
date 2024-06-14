@@ -1,14 +1,18 @@
 // src/App.js
 import React from 'react';
-import Redux from './pages/redux';
+import ReduxPage from './pages/Redux';
 import Headers from './layout/Header';
 import Footer from './layout/Header';
+import UseStatePage from './pages/useState'
+import UseReducerPage from './pages/useReducer'
 
 const App = () => {
   return (
     <div>
       <Headers />
-      <Redux />
+      {/* <ReduxPage /> */}
+      {/* <UseStatePage/> */}
+      <UseReducerPage/>
       <Footer />
     </div>
   );
