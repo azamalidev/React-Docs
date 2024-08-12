@@ -1,0 +1,10 @@
+.nav-btn{
+  color: #AC6218;
+  background-color: aliceblue;
+
+}
+.nav-btn:hover{
+  background-color: transparent;
+  color: white;
+  border: none;
+}

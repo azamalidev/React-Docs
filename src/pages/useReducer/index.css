@@ -1,0 +1,17 @@
+.reducerCounter {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  /* Add these if you want to center the items in both axes */
+ /* Full width (optional) */
+}
+
+.reducerCounter_title{
+  text-justify: center;
+  justify-content: center;
+  text-align: center;
+  color: #ac6218;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+ }

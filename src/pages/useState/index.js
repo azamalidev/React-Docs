@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import Blog from '../../conponents/Blog';
+import data from '../../data';
+import Button from '../../conponents/Button'
+import './index.css'
 const UseStatePage = () => {
   const [count, setCount] = useState(0);
 
@@ -10,12 +14,17 @@ const UseStatePage = () => {
   };
   return (
     <div>
-      <h5> Counter App With useSate</h5>
-      <button onClick={increment}>+</button>
+      <Blog data={data} />
+      <h5 className='useStateCounter_title'> let's Play with Counter App 😎</h5>
+      <div className='useStateCounter'>
+      <span onClick={increment}>
+      <Button content={'+'} />
+      </span>
       {count}
-      <button onClick={decrement}>-</button>
+      <span onClick={decrement}>
+      <Button content={'-'} />
+      </span>
+      </div>
+     
     </div>
-  );
-};
-
-export default UseStatePage;
+  );};export default UseStatePage;

@@ -1,0 +1,91 @@
+.blog-card {
+  margin: 0px 10px;
+}
+.paragraph {
+  text-justify: center;
+  justify-content: center;
+  text-align: center;
+  color: #ac6218;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  margin: 0px 40px;
+}
+.title {
+  text-justify: center;
+  justify-content: center;
+  text-align: center;
+  color: #ac6218;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+}
+.image {
+  display: inline;
+  text-justify: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  position: relative;
+  left: 30%;
+}
+
+.custom-code {
+  background-color: #272822; /* Dark background */
+  color: #f8f8f2; /* Light text color */
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+}
+
+.custom-code .keyword {
+  color: #66d9ef; /* Highlight for keywords */
+}
+
+.custom-code .string {
+  color: #e6db74; /* Highlight for strings */
+}
+
+.code-block {
+  margin: 40px;
+}
+
+.code-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+ 
+}
+
+.custom-code {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #c7254e;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 15px 15px;
+  font-size: 0.9em;
+  white-space: pre-wrap;
+  flex-grow: 1; /* Allow the code block to take up remaining space */
+}
+
+.copy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 10px 5px ;
+  cursor: pointer;
+  font-size: 0.9em;
+  position: relative;
+  top:45px;
+  left: 45px;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}

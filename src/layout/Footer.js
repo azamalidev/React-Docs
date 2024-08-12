@@ -2,8 +2,8 @@
 
 function Footer() {
   return (
-    <div>
-     Footer
+    <div className="footer">
+     @ Azam Ali
     </div>
   );
 }
