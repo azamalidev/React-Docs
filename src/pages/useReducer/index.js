@@ -1,6 +1,8 @@
 import React, { useReducer } from 'react';
 import './index.css'
 import Button from '../../conponents/Button';
+import Reducer from '../../data/reducer'
+import Blog from '../../conponents/Blog'
 const UseReducerPage = () => {
   const initialState = { count: 0 };
   const countReducer = (state, action) => {
@@ -23,6 +25,7 @@ const UseReducerPage = () => {
   };
   return (
     <div>
+      <Blog data={Reducer}/>
       <h5 className='reducerCounter_title'> let's Play with Counter App 😎</h5>
       <div className='reducerCounter'>
       <span onClick={decrement} >

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Blog from '../../conponents/Blog';
-import data from '../../data';
+import data from '../../data/useState';
 import Button from '../../conponents/Button'
 import './index.css'
 const UseStatePage = () => {
