@@ -1,0 +1,32 @@
+.container{
+  display: grid;
+  place-items: center; 
+  display: inline;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.hook_title{
+  text-justify: center;
+  justify-content: center;
+  text-align: center;
+  color: #ac6218;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+ }
+ .hook-btn{
+  display: flex;
+ }
+
+
+ .hook_paragrph{
+  text-justify: center;
+  justify-content: center;
+  text-align: center;
+    font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  margin: 0px 40px;
+ }

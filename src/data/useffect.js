@@ -2,12 +2,16 @@ import useEffect from '../assets/image/useffect.png';
 const UseEffect = {
   image: useEffect,
   title: ['useEffect'],
+  principles: [
+    'It is used to re-render whole the component, not like useMemo which is used to re-render specific part of componenet',
+    'useEffect used by compoenet to doing effect with in compoenets, like on changeing some state some action to do',
+  ],
   paragraph: [
     `The useEffect hook in React is used to perform side effects in function components. Side effects are operations that interact with the outside world or have other side effects beyond just rendering such as: Fetching data from an API, Updating the DOM directly, Cleaning up resources and Setting up subscriptions or timers.`,
   ],
   example: ['Let’s break down the example 👨‍💻'],
   code: [
-    "Fatch API with useEffect",
+    'Fatch API with useEffect',
     "import React, { useState, useEffect } from 'react';",
     '',
     'const DataFetchingComponent = () => {',

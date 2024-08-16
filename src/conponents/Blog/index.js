@@ -45,6 +45,23 @@ const Blog = ({ data }) => {
               </ul>
             </>
           ) : null}
+          {data?.Howitworks ? (
+            <>
+              <h5 className='title'>
+                <strong>How it Works 💡</strong>
+              </h5>
+              <ul className='principles-list'>
+                {data?.Howitworks.map((howwork, index) => {
+                  return (
+                    <>
+                      <li key={index}>{howwork}</li>
+                    </>
+                  );
+                })}
+              </ul>
+            </>
+          ) : null}
+          
           {data?.concept ? (
             <>
               <h5 className='title'>

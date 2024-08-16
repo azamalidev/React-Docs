@@ -10,10 +10,12 @@ function Header() {
         <Link to="/">⚓ Hook</Link>
       </div>
       <ul className="navbar-links">
-        <li><Link to="/"><NavButton content={'useState'}/></Link></li>
+        <li><Link to="/usestate"><NavButton content={'useState'}/></Link></li>
         <li><Link to="/useffect"><NavButton content={'useEffect'}/></Link></li>
         <li><Link to="/redux"><NavButton content={'Redux'}/></Link></li>
         <li><Link to="/usereduce"><NavButton content={'useReduce'}/></Link></li>
+        <li><Link to="/usememo"><NavButton content={'useMemo'}/></Link></li>
+        <li><Link to="/usecallback"><NavButton content={'usecallback'}/></Link></li>
       </ul>
     </nav>
     </div>

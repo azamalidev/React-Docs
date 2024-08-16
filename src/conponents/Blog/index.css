@@ -5,8 +5,7 @@
   text-justify: center;
   justify-content: center;
   text-align: center;
-  color: #ac6218;
-  font-size: 30px;
+    font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
   margin: 0px 40px;
@@ -104,7 +103,6 @@ ul.principles-list li {
   color: #333;
   font-weight: bold;
   font-family: Arial, sans-serif;
-  color: #AC6218;
-  font-size: 20px;
+  font-size: 18px;
 }
 
