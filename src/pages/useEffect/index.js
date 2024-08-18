@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../../conponents/Blog';
 import Button from '../../conponents/Button';
+import QuestionList from '../../data/question';
+import Questions from '../question';
 import UseEffect from '../../data/useffect';
 import './index.css';
 const UseFfect = () => {
@@ -36,6 +38,8 @@ const UseFfect = () => {
         <h2 className='useStateCounter_title'> Test Api Call with useEffect</h2>
       </div>
       <div className='api-content'>Data: {JSON.stringify(data)}</div>
+      <h5 className='useStateCounter_title'> Related Questions</h5>
+      <Questions QuestionList={QuestionList} type={'useEffect'} />
     </div>
   );
 };
