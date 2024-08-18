@@ -3,6 +3,8 @@ import Blog from '../../conponents/Blog';
 import data from '../../data/useMemo';
 import Button from '../../conponents/Button'
 import './index.css'
+import Questions from '../question';
+import QuestionList from '../../data/question';
 
 function ExpensiveComputationComponent({ number }) {
   // Memoize the result of the expensive computation
@@ -15,7 +17,7 @@ function ExpensiveComputationComponent({ number }) {
     return sum;
   }, [number]);
 
-  return <div>Computed Value: {computedValue}</div>;
+  return <div className='reducerCounter_title'>Computed Value: {computedValue}</div>;
 }
 
 const UseMemo = () => {
@@ -33,6 +35,7 @@ const UseMemo = () => {
       <Button content={'Change Number'} />
       </span>
       </div>
-     
+      <h5 className='reducerCounter_title'>Related Questions</h5>
+      <Questions QuestionList={QuestionList} type={'useMemo'} />
     </div>
   );};export default UseMemo;
