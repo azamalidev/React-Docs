@@ -3,6 +3,8 @@ import './index.css'
 import Button from '../../conponents/Button';
 import Reducer from '../../data/reducer'
 import Blog from '../../conponents/Blog'
+import QuestionList from '../../data/question'
+import Questions from '../question';
 const UseReducerPage = () => {
   const initialState = { count: 0 };
   const countReducer = (state, action) => {
@@ -35,8 +37,10 @@ const UseReducerPage = () => {
       <span onClick={increment} >
       <Button content={'+'} />
       </span>
-     
+      
       </div>
+      <h5 className='reducerCounter_title'>Related Questions</h5>
+      <Questions QuestionList={QuestionList} type={'useReduce'} />
     </div>
   );
 };

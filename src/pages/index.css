@@ -18,6 +18,11 @@
  }
  .hook-btn{
   display: flex;
+  text-justify: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 120px;
  }
 
 
