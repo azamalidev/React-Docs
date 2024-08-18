@@ -1,0 +1,47 @@
+.useEffectContainer {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  /* Add these if you want to center the items in both axes */
+ /* Full width (optional) */
+}
+
+.useStateCounter_title{
+  text-justify: center;
+  justify-content: center;
+  text-align: center;
+  color: #ac6218;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+ }
+
+/* PrinciplesList.css */
+.question-list {
+  list-style-type: none; /* Removes default list bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  font-family: Arial, sans-serif; /* Sets a clean font */
+}
+
+.question-list li {
+  margin: 10px 0; /* Adds space between list items */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f7f7f7; /* Light background for list items */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.question-list li:hover {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+
+.question-list a {
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Dark gray text color */
+  font-weight: bold;
+}
+
+.question-list a:hover {
+  color: #007bff; /* Blue color on hover */
+}
