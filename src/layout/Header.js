@@ -16,6 +16,7 @@ function Header() {
         <li><Link to="/usereduce"><NavButton content={'useReduce'}/></Link></li>
         <li><Link to="/usememo"><NavButton content={'useMemo'}/></Link></li>
         <li><Link to="/usecallback"><NavButton content={'usecallback'}/></Link></li>
+        <li><Link to="/useref"><NavButton content={'useref'}/></Link></li>
       </ul>
     </nav>
     </div>
