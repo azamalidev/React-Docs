@@ -2,6 +2,8 @@ import React from 'react';
 import Button from '../../conponents/Button/index'
 import Redux from '../../data/redux'
 import Blob from '../../conponents/Blog/index'
+import QuestionList from '../../data/question'
+import Questions from  '../../pages/question'
 import './index.css'
 import { useSelector, useDispatch } from 'react-redux';
 import { incrementAsync, decrementAsync } from '../../redux/actions/index';
@@ -26,6 +28,8 @@ const ReduxPage = () => {
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}
       </div>
+      <h5 className='useStateCounter_title'>Related Questions</h5>
+      <Questions QuestionList={QuestionList} type={'redux'} />
     </div>
   );
 };

@@ -9,6 +9,7 @@ import UseFfect from './pages/useEffect'
 import UseMemo from './pages/useMemo';
 import { Route, Routes } from 'react-router-dom';
 import UseCallBack from './pages/useCallBack'
+import UseRef from './pages/useRef';
 import Hooks from './pages/hook'
 const App = () => {
   return (
@@ -43,6 +44,11 @@ const App = () => {
           path='/usecallback'
           element={<UseCallBack />}
         />
+        <Route
+          path='/useref'
+          element={<UseRef />}
+        />
+        
       </Routes>
       <Footer />
     </div>
