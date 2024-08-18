@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom';
 const Hooks = () => {
   const hook = [
     { title: 'useState', path: 'useState' },
-    { title: 'useffect', path: 'useffect' },
-    { title: 'usereduce', path: 'usereduce' },
-    { title: 'redux', path: 'redux' },
+    { title: 'usEffect', path: 'useffect' },
+    { title: 'useReduce', path: 'usereduce' },
+    { title: 'Redux', path: 'redux' },
+    { title: 'useRef', path: 'useref' },
+    { title: 'useCallback', path: 'usecallback' },
   ];
   return (
     <div className='container'>
