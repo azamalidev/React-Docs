@@ -3,6 +3,8 @@ import Blog from '../../conponents/Blog';
 import data from '../../data/useCallBack';
 import Button from '../../conponents/Button';
 import './index.css';
+import QuestionList from '../../data/question';
+import Questions from '../question';
 
 function ChildComponent({ onClick }) {
   console.log('ChildComponent rendered');
@@ -55,6 +57,8 @@ const UseCallBack = () => {
 
         <div></div>
       </div>
+      <h5 className='useStateCounter_title'>Related Questions</h5>
+      <Questions QuestionList={QuestionList} type={'useCallback'} />
     </div>
   );
 };
